@@ -44,5 +44,9 @@ def f7(x: Callable[[int, str], int]) -> None:
     pass
 
 
-def f8(x: Tuple[int, str], y: Tuple[int, ...]) -> None:
+def f8(x: Callable) -> None:
+    pass
+
+
+def f9(x: Tuple[int, str], y: Tuple[int, ...]) -> None:
     pass
